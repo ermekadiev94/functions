@@ -58,9 +58,8 @@ void main() {
   String a = "168906";
   List b = a.split('');
   List d = [];
-  List e = [];
   for (int i = 0; i < b.length; i++) {
     d.add(int.parse(b[i]));
   }
-  print(e);
+  print(d);
 }
