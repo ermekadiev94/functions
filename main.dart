@@ -55,11 +55,33 @@ void main() {
   // }
 
 //Lesson 7 Задание 4
-  String a = "168906";
-  List b = a.split('');
-  List d = [];
-  for (int i = 0; i < b.length; i++) {
-    d.add(int.parse(b[i]));
+  // String a = "168906";
+  // List b = a.split('');
+  // List d = [];
+  // for (int i = 0; i < b.length; i++) {
+  //   d.add(int.parse(b[i]));
+  // }
+  // int c = d[0] + d[1] + d[2];
+  // int f = d[3] + d[4] + d[5];
+  // c == f ? {print('Да')} : print('Нет');
+
+// Lesson 7 Задание 5
+  var color = 'красный';
+  switch (color) {
+    case 'красный':
+      {
+        print('надо стоять');
+        break;
+      }
+    case 'желтый':
+      {
+        print('приготовиться');
+        break;
+      }
+    case 'зеленый':
+      {
+        print('можно идти');
+        break;
+      }
   }
-  print(d);
 }
