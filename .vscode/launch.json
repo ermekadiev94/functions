@@ -9,7 +9,8 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program": "/Users/ermekadiev/functions/main.dart"
+            "program": "/Users/ermekadiev/functions/main.dart",
+            "console": "terminal"
 
         }
     ]
