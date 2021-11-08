@@ -1,5 +1,7 @@
 import 'dart:io';
 
+import 'dart:math';
+
 void main() {
 //Lesson 7 Задание 1
   // String a = 'abcde';
@@ -89,7 +91,7 @@ void main() {
 
   //Задание 1 (Wile)
 
-  // String city = 'Ankara';
+  // String city = 'Ankara'.toLowerCase();
   // String a = 'a';
   // List b = city.split('');
   // List c = [];
@@ -150,4 +152,84 @@ void main() {
 //   var result;
 //   result = number * 60;
 //   return result;
-}
+
+//Задание 2 (Напишите функцию)
+
+//   print('first element is ${funclist([60, 5, 3, 3, 2])}');
+// }
+
+// funclist(List a) {
+//   return a[0];
+
+//Задание 3 (Напишите функцию)
+
+  // String mad = '213';
+  // print(mad);
+
+//Задание 4 (Напишите функцию)
+//   print(func1(true));
+// }
+
+// func1(bool a) {
+//   if (a == true) {
+//     return ('переменная имеет значение $a');
+//   } else {
+//     return ('переменная имеет значение $a');
+//   }
+
+//Задание 5 (Напишите функцию)
+//   print(func23(-1));
+// }
+
+// func23(int a) {
+//   if (a >= 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+
+//Задание 1 (Напишите функцию2)
+//   print(func45(45, 68));
+// }
+
+// func45(int a, int b) {
+//   int c = a + b;
+//   if (c < 100) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+
+//Задание 2 (Напишите функцию2)
+//   print(funcBool(true, true));
+// }
+
+// funcBool(bool first, bool second) {
+//   if (first && second) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// funcBool1(bool first, bool second) {
+//   if (first || second) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+
+//Задание 3 (Напишите функцию2)
+//   print(funcList(1, 9));
+// }
+
+// funcList(int start, int end) {
+//   var c = [];
+//   do {
+//     c.add(start + 1);
+//     start++;
+//   } while (start < end - 1);
+//   {
+//     return c;
+//   }
+// }
